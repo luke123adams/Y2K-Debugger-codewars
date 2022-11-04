@@ -50,10 +50,3 @@ test('When given input 31/07/22, Y2K machine function returns 31/07/2022', () =>
 
    expect(actual).toStrictEqual(expected)
 })
-
-test('When given input 25/08/50, Y2K machine function returns 25/08/2050', () =>{
-    const actual = Y2Kmachine('25/08/50')
-    const expected = '25/08/2050'
-
-   expect(actual).toStrictEqual(expected)
-})
